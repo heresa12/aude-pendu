@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(halloween1.jpg);
+}
+
+h1 {
+    color: #ff5722;
+}
+
+#game-container {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+#word-display {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#guesses-left {
+    font-size: 16px;
+}
+
+#incorrect-letters {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#letter-input {
+    font-size: 16px;
+    padding: 5px;
+}
+
+#guess-button {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    cursor:url('cursor.png'),auto;
+}
